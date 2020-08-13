@@ -1,1 +1,11 @@
-<h1>new dose</h1>
+<h1>Create a new dose</h1>
+
+  <%= simple_form_for @dose do |f| %>
+    <%= f.input :description %>
+    <%= f.input :ingredient_id, collection: Ingredient::NAME %>
+    <%= f.submit class: 'btn btn-primary' %>
+  <% end %>
+
+<!-- description
+ingredient a choisir (collection)
+ -->

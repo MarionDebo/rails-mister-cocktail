@@ -14,3 +14,7 @@ Cocktail.create(name: "Lovely Mojito")
 Cocktail.create(name: "Caïpi entre amis")
 Cocktail.create(name: "Old Fashioned")
 Cocktail.create(name: "Planteur")
+
+Dose.create(description: "2cl")
+Dose.create(description: "6cl")
+Dose.create(description: "à volonté")
