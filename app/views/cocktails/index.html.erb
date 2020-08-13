@@ -1,0 +1,13 @@
+<h1>All cocktails!</h1>
+
+  <ul>
+  <% @cocktails.each do |cocktail| %>
+    <li>
+      <%= link_to cocktail.name, cocktail_patch(cocktail) %>
+    </li>
+    <%= end %>
+  </ul>
+
+  <!-- <%= link_to "Add a new cocktail", new_restaurant_path, class: 'btn btn-primary' %> -->
+
+
