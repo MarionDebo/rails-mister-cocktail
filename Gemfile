@@ -28,6 +28,7 @@ gem 'simple_form'
 
 # gem installée pour la sécurité de l'app:
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary', '~> 1.12.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
