@@ -14,10 +14,15 @@
           <div class="card-description">
             <h2><%= cocktail.name %></h2>
           </div>
-          <%= link_to "Cocktails", cocktail_path(cocktail), class: 'card-link' %>
+          <%= link_to "Ready to drink?", cocktail_path(cocktail), class: 'card-link' %>
+
         </div>
       </div>
     <% end %>
+
+    <%= cl_image_upload_tag("idr7qsgm52n2b8znrk0w") %>
+    <%= cl_image_tag("1da663479c1b0b37caa2e2879346c019",
+      width: 400, height: 300, crop: :fill) %>
   </div>
 </div>
 
